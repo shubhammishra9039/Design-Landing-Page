@@ -1,0 +1,110 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+.cont
+{
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.cont .form
+{
+    position: absolute;
+    height: 450px;
+    width: 350px;
+    background-color: aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5%;
+    padding: 35px 35px;
+    
+}
+
+.cont .form:hover
+{
+    position: absolute;
+    height: 450px;
+    width: 350px;
+    background-color: aliceblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5%;
+    padding: 35px 35px;
+    box-shadow: 10px 15px 25px #aaaaaa;
+    
+}
+
+.cont .form form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.cont .form form input
+{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.cont .form form .btn1
+{
+width: 250px;
+height: 35px;
+border: 3px white solid;
+background-color: green;
+font-size: 15px;
+
+}
+.cont .form form .btn1:hover
+{
+width: 250px;
+height: 35px;
+border: 3px white solid;
+background-color: aqua;
+font-size: 15px;
+
+}
+
+
+.cont .form form .btn2
+{
+width: 250px;
+height: 35px;
+border: 3px white solid;
+background-color: red;
+
+font-size: 15px;
+
+}
+.cont .form form .btn2:hover
+{
+width: 250px;
+height: 35px;
+border: 3px white solid;
+background-color: blueviolet;
+
+font-size: 15px;
+
+}

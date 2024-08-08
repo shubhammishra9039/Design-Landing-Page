@@ -1,0 +1,861 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+/* <!--======================= Top Nav Start Here ========================= --> */
+.top {
+  width: 100%;
+  height: 8vh;
+  /* border: 2px solid blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #274375;
+  position: sticky;
+  top: 0;
+  bottom: ;
+}
+.contnertopnav {
+  width: 95%;
+  height: inherit;
+  /* border: 2px solid blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top .contnertopnav .leftnav {
+  width: 50%;
+  height: inherit;
+  /* border: 2px solid blueviolet; */
+  /* padding: 8px; */
+}
+
+.top .contnertopnav .leftnav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+}
+.top .contnertopnav .leftnav ul li button {
+  border: none;
+  height: 8vh;
+  width: 75px;
+  background-color: #274375;
+}
+.top .contnertopnav .leftnav ul li button:hover {
+  background-color: #0078d4;
+}
+.top .contnertopnav .leftnav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 700;
+  color: white;
+}
+.top .contnertopnav .leftnav ul li a:hover {
+}
+
+.top .contnertopnav .rightnav {
+  width: 50%;
+  height: inherit;
+  /* border: 2px solid black; */
+  /* padding: 8px; */
+}
+.top .contnertopnav .rightnav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 25px;
+}
+.top .contnertopnav .rightnav ul li button {
+  border: none;
+  height: 8vh;
+  width: 200px;
+  background-color: #274375;
+}
+.top .contnertopnav .rightnav ul li button:hover {
+  background-color: #0078d4;
+}
+
+.top .contnertopnav .rightnav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: white;
+}
+
+.top .contnertopnav .rightnav ul li a i.special {
+  font-size: 27px;
+  margin-right: 15px;
+}
+/* <!--======================= Top Nav End Here ========================= --> */
+/* <!--======================= Block-1 Start  Here ========================= --> */
+.block-1 {
+  width: 100%;
+  height: 23vh;
+  /* border: 2px solid blueviolet; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-1left {
+  width: 35%;
+  height: 18vh;
+  /* border: 2px solid blueviolet; */
+}
+.block-1left img {
+  width: 70%;
+  height: 55%;
+  margin-top: 25px;
+  margin-left: -65px;
+}
+.block-1right {
+  width: 55%;
+  height: 18vh;
+  /* border: 2px solid blueviolet; */
+}
+/* <!--======================= Block-1 End  Here ========================= --> */
+/* <!--======================= == = Nav Start Here ========================= --> */
+.nav {
+  width: 100%;
+  height: 8vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #274375;
+}
+.nav .nav-2Block {
+  width: 95%;
+  height: inherit;
+
+  /* border: 2px solid red; */
+}
+.nav .nav-2Block ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  list-style: none;
+}
+.nav .nav-2Block ul li button {
+  width: 160px;
+  height: 8vh;
+  border: none;
+  color: white;
+  background-color: #274375;
+}
+.nav .nav-2Block ul li button:hover {
+  background-color: #0078d4;
+}
+.nav .nav-2Block ul li button#Home {
+  width: 70px;
+  height: 8vh;
+}
+
+.nav .nav-2Block ul li button#Home a i {
+  font-size: 27px;
+}
+
+.nav .nav-2Block ul li button a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+
+/* <!--======================= == = Nav End Here ========================= --> */
+/* <!--======================= Block-2 Start Here ========================= --> */
+
+.Block-2 {
+  width: 100%;
+  height: 110vh;
+  /* border: 2px solid blueviolet; */
+  background-image: url(./Image/Banner-1.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.Block-2 .Block-2Contend {
+  width: 100%;
+  height: 50vh;
+  /* border: 2px solid blue; */
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Block-2 .Block-2Contend span {
+  align-items: center;
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  background-color: #0b2659c2;
+}
+
+.Block-2 .Block-2Contend button {
+  width: 180px;
+  height: 8vh;
+  border: none;
+  color: white;
+  background-color: #00205c;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.Block-2 .Block-2Contend button:hover {
+  background-color: #006cbe;
+}
+
+.Block-2 .Block-2Contend .Credits {
+  width: 100%;
+  height: 19vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.Block-2 .Block-2Contend .Credits #CreditsLogo {
+  width: 150px;
+  height: 6vh;
+  border: none;
+  color: white;
+  background-color: #00205c;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 0px;
+}
+/* <!--======================= Block-2 End Here ========================= --> */
+/* <!--======================= Block-3 Start Here ========================= --> */
+.Block-3 {
+  width: 100%;
+  height: 20vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Block-3 .Block-3Contener {
+  width: 95%;
+  height: 12vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+}
+
+.Block-3 .Block-3Contener .Block-3left {
+  width: 50%;
+  height: inherit;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+}
+.Block-3 .Block-3Contener .Block-3left h2 {
+  font-size: 22px;
+  color: #00205c;
+  font-weight: 600;
+}
+.Block-3 .Block-3Contener .Block-3right {
+  width: 50%;
+  height: inherit;
+  /* border: 2px solid blue; */
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 2px;
+}
+.Block-3 .Block-3Contener .Block-3right button {
+  width: 90px;
+  border: none;
+  height: 45px;
+  background-color: white;
+  font-size: 25px;
+  color: #00205c;
+  font-weight: 600;
+}
+.Block-3 .Block-3Contener .Block-3right button i {
+  font-size: 20px;
+}
+
+.Block-3 .Block-3Contener .Block-3right button:hover {
+  background-color: rgb(155, 142, 142);
+}
+/* <!--======================= Block-3 End Here ========================= --> */
+/* <!--======================= Block-3.6 Start Here ========================= --> */
+.Block-3-6 {
+  width: 100%;
+  height: 80vh;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Block-3-6 .cards-Block3-6 {
+  width: 23%;
+  height: 400px;
+  /* background-color: aqua; */
+}
+
+.Block-3-6 .cards-Block3-6:hover {
+  border: 2px solid #00205c;
+  background-color: #e7eaef;
+}
+.Block-3-6 .cards-Block3-6 .Block3-6Contend {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 20px;
+}
+/* .Block-3-6 .cards-Block3-6 .Block3-6Contend  */
+
+.Block-3-6 .cards-Block3-6 .Block3-6Contend img {
+  width: 100%;
+  height: 200px;
+}
+
+.Block-3-6 .cards-Block3-6 .Block3-6Contend .mainContend {
+  padding: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 15px;
+}
+.Block-3-6 .cards-Block3-6 .Block3-6Contend .mainContend p {
+  font-size: 15px;
+}
+.Block-3-6 .cards-Block3-6 .Block3-6Contend .mainContend h2 {
+  font-size: 22px;
+  color: #00205c;
+  font-weight: 600;
+}
+
+/* <!--======================= Block-3.6 End Here ========================= --> */
+/* <!--======================= Block-4 Start Here ========================= --> */
+.Block-4 {
+  width: 100%;
+  height: 65vh;
+  /* border: 2px solid rebeccapurple; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Block-4Cards {
+  width: 250px;
+  height: 300px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.Block-4Cards h2 {
+  font-size: 18px;
+  color: rgb(60, 66, 69);
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.Block-4Cards .main {
+  width: 100%;
+  height: 220px;
+  background-color: #e7eaef;
+  display: flex;
+
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.Block-4Cards .main:hover {
+  border: 2px solid #00205c;
+  cursor: pointer;
+}
+.Block-4Cards .main img {
+  width: 100%;
+  height: 150px;
+}
+
+.Block-4Cards .main button {
+  width: 200px;
+  height: 30px;
+  border: none;
+  font-size: 18px;
+  color: #00205c;
+  font-weight: 600;
+}
+.Block-4Cards .main button:hover {
+  border: 1px solid gray;
+}
+/* <!--======================= Block-4 End Here ========================= --> */
+/* <!--======================= Block-5 Start Here ========================= --> */
+.Block-5 {
+  width: 100%;
+  height: 65vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Block-5 .cardsBlock-5 {
+  width: 30%;
+  height: 350px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Block-5 .cardsBlock-5:hover {
+  border: 1px solid #00205c;
+  cursor: pointer;
+  background-color: #e7eaef;
+}
+.Block-5 .cardsBlock-5 .card-heding {
+  width: 100%;
+  height: 90px;
+
+  border-bottom: 1px solid gray;
+  padding: 15px;
+}
+.Block-5 .cardsBlock-5 .card-heding h1 {
+  font-size: 29px;
+  color: #00205c;
+  font-weight: 600;
+}
+
+.Block-5 .cardsBlock-5 .cards-imge {
+  width: 100%;
+  height: 300px;
+}
+
+.Block-5 .cardsBlock-5 .cards-imge img {
+  width: 100%;
+  height: 200px;
+}
+
+.Block-5 .cardsBlock-5 .cards-imge button {
+  border: none;
+  width: 180px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #00205c;
+  margin-top: 10px;
+  margin-left: 35px;
+  background-color: white;
+}
+.Block-5 .cardsBlock-5 .cards-imge button:hover {
+  border: 1px solid #00205c;
+  cursor: pointer;
+  background-color: #e7eaef;
+}
+
+.Block-5 .cardsBlock-5 .cards-imge h2 {
+  font-size: 22px;
+}
+/* <!--======================= Block-5 End Here ========================= --> */
+
+/* <!--======================= Block-6 Start Here ========================= --> */
+.Block-6 {
+  width: 100%;
+  height: 125vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Block-6 .Block-6Contenr {
+  width: 97%;
+  height: 120vh;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Block-6 .Block-6Contenr .Block-6Left {
+  width: 30%;
+  height: inherit;
+  /* border: 2px solid red; */
+}
+
+.Block-6 .Block-6Contenr .Block-6Left .Block-6ContenerMain {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.Block-6
+  .Block-6Contenr
+  .Block-6Left
+  .Block-6ContenerMain
+  .Block-6leftContend
+  h2 {
+  font-size: 25px;
+  color: #00205c;
+}
+
+.Block-6
+  .Block-6Contenr
+  .Block-6Left
+  .Block-6ContenerMain
+  .Block-3rightContend
+  button {
+  width: 110px;
+  height: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #00205c;
+  border: none;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.Block-6
+  .Block-6Contenr
+  .Block-6Left
+  .Block-6ContenerMain
+  .Block-3rightContend
+  button:hover {
+  background-color: gray;
+}
+
+.Block-6Cards {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.Block-6Cards .Block-6CraedContend {
+  width: 100%;
+  height: 50vh;
+}
+.Block-6Cards .Block-6CraedContend:hover {
+  border: 2px solid #00205c;
+  background-color: #e6eaef;
+}
+.Block-6Cards .Block-6CraedContend img {
+  width: 100%;
+  height: 30vh;
+  background-color: rebeccapurple;
+}
+
+.Block-6Cards .Block-6CraedContend h2 {
+  padding: 15px;
+  font-size: 22px;
+  color: #00205c;
+  margin-top: 10px;
+}
+.Block-6Cards .Block-6CraedContend p {
+  padding: 0px 15px;
+  font-size: 16px;
+  color: grey;
+}
+
+.Block-6 .Block-6Contenr .Block-6Right .Block-6ContenerMain {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.Block-6
+  .Block-6Contenr
+  .Block-6Right
+  .Block-6ContenerMain
+  .Block-6leftContend
+  h2 {
+  font-size: 25px;
+  color: #00205c;
+}
+
+.Block-6
+  .Block-6Contenr
+  .Block-6Right
+  .Block-6ContenerMain
+  .Block-3rightContend
+  button {
+  width: 110px;
+  height: 45px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #00205c;
+  border: none;
+  background-color: white;
+  margin-top: 5px;
+}
+
+.Block-6
+  .Block-6Contenr
+  .Block-6Right
+  .Block-6ContenerMain
+  .Block-3rightContend
+  button:hover {
+  background-color: gray;
+}
+
+.Block-6 .Block-6Contenr .Block-6Right {
+  width: 60%;
+  height: inherit;
+  /* border: 2px solid black; */
+}
+.Block-6 .Block-6Contenr .Block-6Right .List {
+  width: 100%;
+  height: 108vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.Block-6 .Block-6Contenr .Block-6Right .List .list-item {
+  width: 100%;
+  height: 20vh;
+  background-color: rgba(238, 230, 230, 0.678);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Block-6 .Block-6Contenr .Block-6Right .List .list-item:hover {
+  border: 1px solid #00205c;
+}
+.Block-6 .Block-6Contenr .Block-6Right .List .list-item .img {
+  width: 15%;
+  height: inherit;
+}
+.Block-6 .Block-6Contenr .Block-6Right .List .list-item .img img {
+  width: 125px;
+}
+.Block-6 .Block-6Contenr .Block-6Right .List .list-item .listcontend {
+  width: 82%;
+  height: inherit;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.Block-6 .Block-6Contenr .Block-6Right .List .list-item .listcontend h2 {
+  font-size: 22px;
+  color: #00205c;
+}
+.Block-6 .Block-6Contenr .Block-6Right .List .list-item .listcontend p {
+  font-size: 14px;
+}
+/* <!--======================= Block-6 End Here ========================= --> */
+
+footer {
+  width: 100%;
+  height: 80vh;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #00205c;
+}
+
+footer .footer-top {
+  width: 85%;
+  height: 60vh;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .footer-top .list-contend {
+  width: 22%;
+  height: 65vh;
+
+  padding: 25px;
+}
+footer .footer-top .list-contend .list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 20px;
+}
+
+footer .footer-top .list-contend .list a {
+  text-decoration: none;
+  color: #00205c;
+}
+footer .footer-top .list-contend .list a h2 {
+  font-size: 25px;
+  color: white;
+}
+footer .footer-top .list-contend .list a h2:hover {
+  background-color: #0078d4;
+}
+footer .footer-top .list-contend .list ul {
+  list-style: none;
+  margin-top: 25px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer .footer-top .list-contend .list ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+footer .footer-top .list-contend .list ul li a h4 {
+  font-weight: 400;
+}
+
+footer .footer-top .list-contend .list ul li a h4:hover {
+  background-color: #0078d4;
+}
+footer .footer-top .list-contend .list button {
+  margin-top: 25px;
+  width: 200px;
+  height: 45px;
+  color: white;
+  background-color: #2a4577;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+footer .footer-top .list-contend .list button:hover {
+  border: 2px solid #0078d4;
+}
+footer .footer-down {
+  width: 100%;
+  height: 20vh;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-down .img {
+  width: 35%;
+  height: 18vh;
+  margin-bottom: 65px;
+  /* background-color: aqua; */
+}
+footer .footer-down .img img {
+  width: 100%;
+  height: 18vh;
+}
+footer .footer-down .img img:hover {
+  background-color: #0078d4;
+}
+
+.last-footer {
+  width: 100%;
+  height: 15vh;
+  background-color: #274375;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last-footer .footer-contener {
+  width: 95%;
+  height: 12vh;
+  /* border: 2px solid white; */
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.last-footer .footer-contener .left {
+  width: 20%;
+  height: inherit;
+  /* border: 2px solid red; */
+  padding: 15px;
+}
+.last-footer .footer-contener .left h2 {
+  width: 70%;
+
+  font-size: 18px;
+  color: white;
+}
+.last-footer .footer-contener .left h2:hover {
+  background-color: #0078d4;
+}
+.last-footer .footer-contener .center {
+  width: 35%;
+  height: inherit;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.last-footer .footer-contener .center .icon {
+  width: 45px;
+  height: 45px;
+
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last-footer .footer-contener .center .icon:hover {
+  background-color: #0078d4;
+}
+
+.last-footer .footer-contener .center .icon i {
+  font-size: 25px;
+  color: white;
+}
+
+.last-footer .footer-contener .right {
+  width: 20%;
+  height: inherit;
+  /* border: 2px solid red; */
+  padding: 15px;
+}
+.last-footer .footer-contener .right h2 {
+  font-size: 18px;
+  color: white;
+  margin-left: 85px;
+}
+.last-footer .footer-contener .right h2:hover {
+  background-color: #0078d4;
+}

@@ -1,0 +1,630 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* ======================Nav Bar Start Here========================================== */
+#nav {
+  display: flex;
+  position: relative;
+}
+
+#nav #logo {
+  position: absolute;
+  margin: 30px 40px;
+  color: white;
+  font-size: 35px;
+  background-color: black;
+  border: 2px solid white;
+}
+
+#nav #links {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  display: flex;
+  gap: 35px;
+  color: white;
+}
+
+#nav #links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* ======================Bannner Statrt=================================== */
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url(https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg);
+  background-size: cover;
+  background-position: 7% 0;
+}
+
+#div1 {
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  width: 40%;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#div1 h1 {
+  font-size: 50px;
+  position: relative;
+  animation-name: move;
+  margin-bottom: 20px;
+}
+
+#div1 p {
+  font-size: 17px;
+
+  margin-bottom: 20px;
+}
+
+#div1 button {
+  position: absolute;
+  color: white;
+  width: 150px;
+  height: 40px;
+
+  left: 30%;
+
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+/* ============================Cards Start========================= */
+
+#cards {
+  padding: 85px;
+  width: 100%;
+  height: 80vh;
+  background-color: #dadada;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  border: 1px solid gray;
+}
+
+.divcards {
+  margin: 30px;
+
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  z-index: 89;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 15%;
+  border: 1px solid gray;
+}
+
+.divcards img {
+  height: 130px;
+  width: 130px;
+  border-radius: 30%;
+}
+
+.divcards h2 {
+  color: rgb(65, 59, 59);
+  font-size: 22px;
+  align-items: center;
+  margin-top: 10px;
+}
+.divcards p {
+  color: black;
+  font-size: 16px;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 15px;
+  text-align: center;
+}
+/* =====================TwoDiv ============================== */
+
+#towdiv {
+  width: 100%;
+  height: 80vh;
+  background-color: rgb(78, 72, 72);
+  display: flex;
+  position: relative;
+
+  border: 1px solid gray;
+}
+
+#twodivleft {
+  width: 50%;
+  height: 80vh;
+  padding: 80px;
+  border: 1px solid gray;
+}
+
+#twodivleft p {
+  margin-left: 50px;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+
+  text-align: center;
+}
+
+#twodivleft h2 {
+  margin-left: 45px;
+  color: white;
+  font-size: 27px;
+  line-height: 30px;
+  text-align: center;
+}
+
+#twodivright {
+  width: 50%;
+
+  padding: 25px;
+  position: relative;
+}
+
+#twodivright img {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  border: 8px solid white;
+}
+
+#banner {
+  margin: 25px;
+  padding: 50px;
+  width: 96%;
+  height: 40vh;
+  background-color: #dadada;
+  display: flex;
+
+  position: relative;
+  justify-content: space-around;
+  border: 3px solid gray;
+}
+
+#banner h1 {
+  position: absolute;
+  top: 25px;
+  text-transform: uppercase;
+  text-decoration: overline;
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+#banner img {
+  margin-top: 60px;
+  height: 50px;
+  width: 75px;
+  background: transparent;
+}
+
+/* ===================Music Cards start here========================== */
+#musiclist {
+  padding: 85px;
+  width: 100%;
+  height: 125vh;
+  background-color: #dadada;
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap */
+  justify-content: space-around;
+  border: 1px solid gray;
+  position: relative;
+}
+
+#musiclist h1 {
+  position: absolute;
+  top: 45px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+.musiccard {
+  width: calc(33.33% - 60px); /* Calculate width to fit 3 cards with spacing */
+  margin: 30px;
+  height: 250px;
+  background-color: white;
+  z-index: 89;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 5%;
+  border: 1px solid gray;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.musiccard img {
+  height: 120px;
+  width: 200px;
+  border: 4px solid black;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+.musiccard h1 {
+  position: absolute;
+  z-index: 999;
+  font-family: poppins;
+}
+
+.musiccard audio {
+  margin-top: 15px;
+}
+
+/* =====================Footer Statr here====================================== */
+
+#footer {
+  width: 100%;
+  height: 50vh;
+  background-color: #181b1b;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer #fleft {
+  width: 33.33%;
+  height: 40vh;
+  padding: 40px;
+}
+
+#footer #fleft #fcnt {
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  width: 75%;
+}
+
+#footer #fleft #fcnt i {
+  font-size: 35px;
+}
+
+#footer #fleft #fcnt h1 {
+  font-family: poppins;
+  font-size: 22px;
+}
+
+#footer #fleft p {
+  margin-top: 25px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+#footer #fcenter {
+  width: 33.33%;
+  height: 40vh;
+
+  padding: 40px;
+}
+#footer #fcenter h1 {
+  font-family: poppins;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#footer #fcenter #link {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+#footer #fcenter #link a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+#footer #fright {
+  width: 33.33%;
+  height: 40vh;
+
+  position: relative;
+  padding: 35px;
+}
+
+#footer #fright input {
+  position: absolute;
+  height: 30px;
+  width: 180px;
+  top: 30px;
+
+  border-radius: 50px;
+  text-align: center;
+}
+#footer #fright button {
+  position: absolute;
+  width: 150px;
+  height: 30px;
+  top: 30px;
+  left: 220px;
+  color: white;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+
+#footer #fright #gettoch {
+  width: 70%;
+  height: 20vh;
+
+  position: absolute;
+  top: 90px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+#footer #fright #gettoch h2 {
+  position: absolute;
+  font-family: poppins;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 22px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+#footer #fright #gettoch #ficon {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  gap: 10px;
+}
+#footer #fright #gettoch #ficon i {
+  font-size: 20px;
+}
+
+#copyright {
+  width: 100%;
+  height: 10vh;
+  background-color: #181b1b;
+  border-top: 2px solid grey;
+}
+#copyright p {
+  padding: 15px;
+  text-align: center;
+  color: white;
+}
+
+/* ===============mobile viwe=============== */
+@media (max-width: 991px) {
+  #nav #logo {
+    position: absolute;
+    margin: 30px 40px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    border: 2px solid white;
+  }
+
+  #div1 {
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    width: 40%;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  #div1 h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  #div1 p {
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #div1 button {
+    position: absolute;
+    color: white;
+    width: 95px;
+    height: 20px;
+
+    left: 30%;
+
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+
+  #cards {
+    padding: 90px;
+    width: 100%;
+    height: 80vh;
+    background-color: #dadada;
+    display: flex;
+
+    position: relative;
+    justify-content: space-around;
+    border: 1px solid gray;
+  }
+
+  #twodivleft {
+    width: 60%;
+  }
+
+  #twodivleft h2 {
+    font-size: 19px;
+    line-height: 19px;
+  }
+
+  #twodivleft p {
+    font-size: 15px;
+  }
+
+  #twodivright img {
+    height: 250px;
+    width: 250px;
+  }
+
+  #musiclist {
+    padding: 85px;
+    width: 100%;
+    height: 200vh;
+    background-color: #dadada;
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    justify-content: space-around;
+    border: 1px solid gray;
+    position: relative;
+  }
+
+  .musiccard {
+    width: calc(50% - 70px);
+  }
+
+  #footer {
+  }
+}
+
+@media (max-width: 500px) {
+  #nav #links {
+    display: none;
+  }
+
+  #nav #logo {
+    position: absolute;
+    margin: 30px 40px;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    border: 2px solid white;
+  }
+
+  #div1 {
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    width: 90%;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  #div1 h1 {
+    text-align: center;
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+
+  #div1 p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #div1 button {
+    position: absolute;
+    color: white;
+    width: 95px;
+    height: 20px;
+
+    left: 42%;
+
+    border: 2px solid white;
+    background-color: transparent;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+
+  #cards {
+    padding: 90px;
+    width: 100%;
+    height: 275vh;
+    background-color: #dadada;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-around;
+    border: 1px solid gray;
+  }
+
+  #towdiv {
+    width: 100%;
+    height: 125vh;
+    background-color: rgb(78, 72, 72);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  #twodivleft {
+    border: none;
+    padding: 15px;
+    width: 100%;
+  }
+
+  #twodivleft h2 {
+    font-size: 25px;
+    line-height: 19px;
+  }
+
+  #twodivleft p {
+    font-size: 21px;
+  }
+
+  #twodivright img {
+    display: none;
+  }
+
+  #banner {
+    display: flex;
+    flex-direction: column;
+    height: 200vh;
+  }
+  #banner img {
+    width: 70%;
+  }
+
+  #musiclist {
+    padding: 85px;
+    width: 100%;
+    height: 400vh;
+    background-color: #dadada;
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    justify-content: space-around;
+    border: 1px solid gray;
+    position: relative;
+  }
+
+  .musiccard {
+    width: calc(100% - 550px);
+  }
+
+  #footer {
+    display: flex;
+    flex-direction: column;
+    height: 275vh;
+    width: calc(100% - 300px);
+  }
+}

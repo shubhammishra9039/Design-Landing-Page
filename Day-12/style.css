@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+}
+.contener {
+  width: 95%;
+  height: 450px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.contener .cards {
+  width: 23%;
+  height: 450px;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 30px;
+
+  flex-direction: column;
+}
+
+.contener .cards .titel h2 {
+  font-size: 30px;
+}
+
+.contener .cards .conted p {
+  font-size: 18px;
+}
+
+.contener .cards .icon {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.contener .cards .icon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #3dc9c7;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.contener .cards .list {
+  height: 400px;
+  width: 100%;
+  /* border: 2px solid red; */
+}
+.contener .cards .list ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+}
+.contener .cards .list ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: whitesmoke;
+}
+
+.contener .cards .listitem
+{
+    width: 100%;
+    height: 50px;
+    /* border: 2px solid red; */
+}
+.contener .cards .listitem .item
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.contener .cards .listitem .item .icon i
+{
+    color: aquamarine;
+    font-size: 22px;
+}
+
+.contener .cards .listitem .item .contend p
+{
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.lastfooter
+{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(135deg, #ce4be8 0%, #207ce5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastfooter p
+{
+    color: whitesmoke;
+    font-size: 18px;
+}
+.lastfooter p i
+{
+    color: red;
+    font-size: 22px;
+}
